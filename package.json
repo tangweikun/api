@@ -1,6 +1,6 @@
 {
   "name": "api-collection",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/script-compiled.js",
   "repository": "https://github.com/tangweikun/api.git",
   "author": "tangweikun <819573105@qq.com>",
