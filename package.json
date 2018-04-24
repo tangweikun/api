@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tangweikun/api.git",
+  "author": "tangweikun <819573105@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx babel-node src/index.js"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
