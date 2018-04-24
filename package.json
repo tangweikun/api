@@ -1,12 +1,13 @@
 {
   "name": "api-collection",
   "version": "0.0.3",
-  "main": "src/index.js",
+  "main": "lib/script-compiled.js",
   "repository": "https://github.com/tangweikun/api.git",
   "author": "tangweikun <819573105@qq.com>",
   "license": "MIT",
   "scripts": {
     "start": "npx babel-node src/index.js",
+    "compile": "npx babel index.js --out-file lib/script-compiled.js",
     "watch": "jest --watch"
   },
   "dependencies": {
