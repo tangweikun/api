@@ -6,7 +6,8 @@
   "author": "tangweikun <819573105@qq.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npx babel-node src/index.js"
+    "start": "npx babel-node src/index.js",
+    "watch": "jest --watch"
   },
   "dependencies": {
     "node-fetch": "^2.1.2"
@@ -14,6 +15,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3"
   }
 }
