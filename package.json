@@ -1,6 +1,6 @@
 {
   "name": "api-collection",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/script-compiled.js",
   "repository": "https://github.com/tangweikun/api.git",
   "author": "tangweikun <819573105@qq.com>",
@@ -14,7 +14,9 @@
     "node-fetch": "^2.1.2"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
