@@ -1,5 +1,9 @@
+import fetch from 'node-fetch'
+
 function fn() {
-  console.log('00999')
+  fetch('https://api.github.com/users/tangweikun')
+    .then(res => res.json())
+    .then(json => console.log(json))
 }
 
 fn()
