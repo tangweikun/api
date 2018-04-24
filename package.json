@@ -8,6 +8,7 @@
   "scripts": {
     "start": "npx babel-node src/index.js",
     "compile": "npx babel src --out-dir lib",
+    "publish": "yarn compile && npm publish",
     "watch": "jest --watch"
   },
   "dependencies": {
