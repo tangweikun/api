@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "npx babel-node src/index.js",
-    "compile": "npx babel src --out-file lib/script-compiled.js",
+    "compile": "npx babel src --out-dir lib",
     "watch": "jest --watch"
   },
   "dependencies": {
