@@ -7,16 +7,14 @@
   "license": "MIT",
   "scripts": {
     "start": "npx babel-node src/index.js",
-    "compile": "npx babel src --out-dir lib",
+    "compile": "npx babel --presets es2015 src --out-dir lib",
     "watch": "jest --watch"
   },
   "dependencies": {
     "node-fetch": "^2.1.2"
   },
   "babel": {
-    "presets": [
-      "es2015"
-    ]
+    "presets": ["es2015"]
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
