@@ -1,6 +1,6 @@
 {
   "name": "api-collection",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "repository": "https://github.com/tangweikun/api.git",
   "author": "tangweikun <819573105@qq.com>",
