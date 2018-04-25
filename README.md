@@ -35,4 +35,8 @@ github_userInfo(username).then(data => console.log(data))
 > https://api.github.com
 
 * github_userInfo
+
   > [API](https://api.github.com/users/github)
+
+* github_followers
+  > [API](https://api.github.com/users/github/followers)
