@@ -25,5 +25,5 @@ import { github_userInfo } from 'api-collection'
 
 // 3. Get the data
 const username = 'github'
-github_userInfo(username').then(data => console.log(data))
+github_userInfo(username).then(data => console.log(data))
 ```
