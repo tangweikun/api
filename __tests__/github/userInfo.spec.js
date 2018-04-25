@@ -7,10 +7,3 @@ test('test', () => {
     console.log(data)
   })
 })
-
-it('test', done => {
-  github_userInfo().then(res => {
-    console.log(res)
-    done()
-  })
-})
