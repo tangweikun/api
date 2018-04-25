@@ -14,7 +14,7 @@ yarn add api-collection
 
 * API from 'https://api.github.com'
 
-## Quick start
+## Quick Start
 
 ```js
 // 1. Install `api-collection`
@@ -27,3 +27,12 @@ import { github_userInfo } from 'api-collection'
 const username = 'github'
 github_userInfo(username).then(data => console.log(data))
 ```
+
+## Document
+
+### github
+
+> https://api.github.com
+
+* github_userInfo
+  > [API](https://api.github.com/users/github)
