@@ -2,7 +2,7 @@ import { github_userInfo } from '.'
 
 test('test', () => {
   expect.assertions(1)
-  return github_userInfo().then(data => {
+  return github_userInfo('tangweikun').then(data => {
     expect(true).toBe(true)
     console.log(data)
   })
