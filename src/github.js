@@ -7,4 +7,5 @@ const githubBaseUrl = 'https://api.github.com/users/'
 const strategies = props => ({
   userInfo: `${props.username}`,
   followers: `${props.username}/followers${props.page ? `?page=${page}` : ''}`,
+  starred: `${props.username}/starred${props.page ? `?page=${page}` : ''}`,
 })
