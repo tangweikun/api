@@ -16,6 +16,18 @@ yarn add api-collection
 
 ## Quick Start
 
+> Start with Demo
+
+```js
+git clone 'https://github.com/tangweikun/api'
+cd api
+cd examples
+yarn // or 'npm install'
+yarn watch // or npm run watch
+```
+
+> Start with your own project
+
 ```js
 // 1. Install `api-collection`
 yarn add api-collection
