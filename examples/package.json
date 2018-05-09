@@ -1,0 +1,22 @@
+{
+  "name": "api-collection-examples",
+  "version": "0.1.3",
+  "main": "index.js",
+  "repository": "https://github.com/tangweikun/api.git",
+  "author": "tangweikun <819573105@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "jest --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "api-collection": "^0.1.3"
+  }
+}
