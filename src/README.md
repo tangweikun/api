@@ -21,11 +21,11 @@ yarn add api-collection
 yarn add api-collection
 
 // 2. Import from `api-collection`
-import { github_userInfo } from 'api-collection'
+import { github } from 'api-collection'
 
 // 3. Get the data
 const username = 'github'
-github_userInfo(username).then(data => console.log(data))
+github('userInfo', { username }).then(data => console.log(data))
 ```
 
 ## Document
