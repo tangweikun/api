@@ -17,6 +17,6 @@
     "jest": "^22.4.3"
   },
   "dependencies": {
-    "api-collection": "^0.1.4"
+    "api-collection": "^0.1.8"
   }
 }

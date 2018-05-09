@@ -91,9 +91,9 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-api-collection@^0.1.4:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/api-collection/-/api-collection-0.1.6.tgz#00edff6ed25b6e6014d52c3ff27fdbe3dcc2bdbf"
+api-collection@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/api-collection/-/api-collection-0.1.8.tgz#b33a86689ee2dbbb820775cbd7b2ea9630b925f3"
   dependencies:
     node-fetch "^2.1.2"
 

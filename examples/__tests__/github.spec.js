@@ -12,4 +12,10 @@ describe('github', () => {
       console.log('userInfo:\n', data)
     })
   })
+
+  it('starred', () => {
+    github('starred', { username: 'tangweikun' }).then(data => {
+      console.log('starred:\n', data)
+    })
+  })
 })
