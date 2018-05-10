@@ -36,27 +36,25 @@ yarn add api-collection
 import { github } from 'api-collection'
 
 // 3. Get the data
-const username = 'github'
+const username = 'tangweikun'
 github('userInfo', { username }).then(data => console.log(data))
 ```
 
 ## Document
 
-### github
+### github (https://api.github.com)
 
-> https://api.github.com
+> [users](https://developer.github.com/v3/users/)
 
-* userInfo
+* GET /users/:username
+* GET /user (authenticated)
 
-  > [GET /users/:username](https://developer.github.com/v3/users/)
+> [followers](https://developer.github.com/v3/users/followers/)
 
-* followers
+* GET /users/:username/followers
+* GET /user/followers (authenticated)
 
-  > [GET /users/:username/followers](https://developer.github.com/v3/users/followers/)
+> [starred](https://developer.github.com/v3/activity/starring/)
 
-* starred
-
-  > [GET /users/:username/starred](https://developer.github.com/v3/activity/starring/)
-
-* user
-  > [https://api.github.com/users/tangweikun/gists](https://api.github.com/users/tangweikun/gists)
+* GET /users/:username/starred
+* GET /user/starred (authenticated)
