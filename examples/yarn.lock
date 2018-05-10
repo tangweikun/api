@@ -91,10 +91,11 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-api-collection@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/api-collection/-/api-collection-0.1.8.tgz#b33a86689ee2dbbb820775cbd7b2ea9630b925f3"
+api-collection@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/api-collection/-/api-collection-0.1.9.tgz#bb20e96895799c332a07a1dd23997c0a94f4cc45"
   dependencies:
+    dotenv "^5.0.1"
     node-fetch "^2.1.2"
 
 append-transform@^0.4.0:
@@ -1159,6 +1160,10 @@ domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/domexception/-/domexception-1.0.1.tgz#937442644ca6a31261ef36e3ec677fe805582c90"
   dependencies:
     webidl-conversions "^4.0.2"
+
+dotenv@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-5.0.1.tgz#a5317459bd3d79ab88cff6e44057a6a3fbb1fcef"
 
 ecc-jsbn@~0.1.1:
   version "0.1.1"
