@@ -11,6 +11,7 @@
     "watch": "jest --watch"
   },
   "dependencies": {
+    "dotenv": "^5.0.1",
     "node-fetch": "^2.1.2"
   },
   "devDependencies": {

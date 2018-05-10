@@ -48,11 +48,15 @@ github('userInfo', { username }).then(data => console.log(data))
 
 * userInfo
 
-  > [https://api.github.com/users/tangweikun](https://api.github.com/users/tangweikun)
+  > [GET /users/:username](https://developer.github.com/v3/users/)
 
 * followers
 
-  > [https://api.github.com/users/tangweikun/followers](https://api.github.com/users/tangweikun/followers)
+  > [GET /users/:username/followers](https://developer.github.com/v3/users/followers/)
 
 * starred
-  > [https://api.github.com/users/tangweikun/starred](https://api.github.com/users/tangweikun/starred)
+
+  > [GET /users/:username/starred](https://developer.github.com/v3/activity/starring/)
+
+* user
+  > [https://api.github.com/users/tangweikun/gists](https://api.github.com/users/tangweikun/gists)
